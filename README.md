@@ -4,6 +4,16 @@ Created by <b>Deniel Maomay</b>
 
 ## 1. Installation
 
+```
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/denielmaomay/yii2-audit-log.git"
+        }
+ ]
+
+```
+
 ```bash
 
 composer require "denielmaomay/yii2-audit-log"
