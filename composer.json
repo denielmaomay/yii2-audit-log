@@ -1,7 +1,7 @@
 {
-    "name": "ddm/yii2-audit-log",
+    "name": "denielmaomay/yii2-audit-log",
     "description": "A class",
-    "keywords": ["yii2", "yii2-audit-log", "Audit", "Logs", "ddm"],
+    "keywords": ["yii2", "yii2-audit-log", "Audit", "Logs", "denielmaomay"],
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ddm\\auditlogs\\": ""
+            "denielmaomay\\auditlogs\\": ""
         }
     }
 }

@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model ddm\auditlogs\models\AuditTrail */
+/* @var $model denielmaomay\auditlogs\models\AuditTrail */
 
 $this->title = 'Create Audit Trail';
 $this->params['breadcrumbs'][] = ['label' => 'Audit Trails', 'url' => ['index']];

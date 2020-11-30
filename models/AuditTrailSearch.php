@@ -1,14 +1,14 @@
 <?php
 
-namespace ddm\auditlogs\models;
+namespace denielmaomay\auditlogs\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use ddm\auditlogs\models\AuditTrail;
+use denielmaomay\auditlogs\models\AuditTrail;
 
 /**
- * AuditTrailSearch represents the model behind the search form about `ddm\auditlogs\models\AuditTrail`.
+ * AuditTrailSearch represents the model behind the search form about `denielmaomay\auditlogs\models\AuditTrail`.
  */
 class AuditTrailSearch extends AuditTrail
 {

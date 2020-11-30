@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model ddm\auditlogs\models\Log */
+/* @var $model denielmaomay\auditlogs\models\Log */
 
 $this->title = $model->change_id;
 $this->params['breadcrumbs'][] = ['label' => 'Logs', 'url' => ['index']];

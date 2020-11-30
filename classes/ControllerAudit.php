@@ -5,10 +5,10 @@
 *
 */
 
-namespace ddm\auditlogs\classes;
+namespace denielmaomay\auditlogs\classes;
 
 use Yii;
-use ddm\auditlogs\models\AuditTrail;
+use denielmaomay\auditlogs\models\AuditTrail;
 
 
 class ControllerAudit extends \yii\web\Controller

@@ -1,12 +1,12 @@
 # Yii2-audit-logs
 
-Created by <b>Deniel Maomay</b> (Professional Web Developer)
+Created by <b>Deniel Maomay</b>
 
 ## 1. Installation
 
 ```bash
 
-composer require "ddm/yii2-audit-log:dev-master"
+composer require "denielmaomay/yii2-audit-log"
 ```
 
 ## 2. Configuration
@@ -16,7 +16,7 @@ Add following lines to your main configuration file:
 ```php
 'modules' => [
     'auditlogs' => [
-        'class' => 'ddm\auditlogs\Module',
+        'class' => 'denielmaomay\auditlogs\Module',
     ],
 ],
 ```
@@ -24,7 +24,7 @@ Add following lines to your main configuration file:
 ## 3. Migrate Database Schema
 
 ```bash
-$ php yii migrate/up --migrationPath=@vendor/ddm/yii2-audit-log/migrations
+$ php yii migrate/up --migrationPath=@vendor/denielmaomay/yii2-audit-log/migrations
 ```
 
 
@@ -32,7 +32,7 @@ $ php yii migrate/up --migrationPath=@vendor/ddm/yii2-audit-log/migrations
 
 ## Controller
 ```
-use ddm\auditlogs\classes\ControllerAudit;
+use denielmaomay\auditlogs\classes\ControllerAudit;
 
 class ProjectsController extends ControllerAudit 
 {
@@ -41,7 +41,7 @@ class ProjectsController extends ControllerAudit
 ```
 ## Models
 ```
-use ddm\auditlogs\classes\ModelAudit;
+use denielmaomay\auditlogs\classes\ModelAudit;
 
 class Project extends  ModelAudit //\yii\db\ActiveRecord
 {

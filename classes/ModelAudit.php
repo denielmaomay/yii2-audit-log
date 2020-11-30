@@ -5,10 +5,10 @@
 *
 */
 
-namespace ddm\auditlogs\classes;
+namespace denielmaomay\auditlogs\classes;
 
 use Yii;
-use ddm\auditlogs\models\Log;
+use denielmaomay\auditlogs\models\Log;
 
 
 class ModelAudit extends \yii\db\ActiveRecord

@@ -1,10 +1,10 @@
 <?php
 
-namespace ddm\auditlogs\controllers;
+namespace denielmaomay\auditlogs\controllers;
 
 use Yii;
-use ddm\auditlogs\models\Log;
-use ddm\auditlogs\models\LogSearch;
+use denielmaomay\auditlogs\models\Log;
+use denielmaomay\auditlogs\models\LogSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

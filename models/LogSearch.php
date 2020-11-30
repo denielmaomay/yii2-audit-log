@@ -1,14 +1,14 @@
 <?php
 
-namespace ddm\auditlogs\models;
+namespace denielmaomay\auditlogs\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use ddm\auditlogs\models\Log;
+use denielmaomay\auditlogs\models\Log;
 
 /**
- * LogSearch represents the model behind the search form about `ddm\auditlogs\models\Log`.
+ * LogSearch represents the model behind the search form about `denielmaomay\auditlogs\models\Log`.
  */
 class LogSearch extends Log
 {
